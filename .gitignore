@@ -3,3 +3,4 @@ lib/
 yarn-error*
 coverage/
 .vscode/
+.idea

@@ -1,4 +1,5 @@
 import { IMarkdownNode, PrismicNode, IRichTextSpan, IRichTextBlock } from '../types';
+import { generate as code } from './code';
 import { generate as heading } from './heading';
 import { generate as text } from './text';
 import { generate as link } from './link';
@@ -20,7 +21,7 @@ export const blocks: IGeneratorCollection<IRichTextBlock> = {
   heading,
   paragraph: block('paragraph'),
   definition: noop,
-  code: block('preformatted'),
+  code,
   list,
   html: noop,
   thematicBreak: noop,
@@ -32,7 +33,7 @@ export const spans: IGeneratorCollection<IRichTextSpan> = {
   html: noop,
   break: noop,
   listItem: inline('text'),
-  inlineCode: inline('preformatted'),
+  inlineCode: noop,
   strong: inline('strong'),
   emphasis: inline('em'),
   link,

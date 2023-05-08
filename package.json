@@ -1,5 +1,5 @@
 {
-  "name": "@ueno/markdown-to-prismic-richtext",
+  "name": "@gijsbotje/md-to-prismic-richtext",
   "version": "1.2.0",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
