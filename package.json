@@ -1,6 +1,6 @@
 {
   "name": "@gijsbotje/md-to-prismic-richtext",
-  "version": "1.2.0",
+  "version": "0.0.2",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "keywords": [
@@ -9,10 +9,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/ueno-llc/markdown-to-prismic-richtext.git"
+    "url": "https://github.com/gijsbotje/md-to-prismic-richtext.git"
   },
   "description": "Converts markdown to Prismic RichText-compatible objects",
-  "author": "Ueno <hi@ueno.co> (https://ueno.co)",
+  "author": "Gijsbotje <contact@gijsbotje.nl> (https://gijsbotje.nl)",
   "scripts": {
     "test": "jest",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
@@ -34,7 +34,7 @@
     "typescript": "^3.4.5"
   },
   "dependencies": {
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.21",
     "prismic-richtext": "^1.0.1",
     "remark-parse": "^6.0.3"
   },
